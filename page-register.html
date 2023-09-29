@@ -820,43 +820,86 @@
         <div class="row">
           <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
             <div class="main-title text-center">
-              <h2 class="title">Register</h2>
-              <p class="paragraph">Give your visitor a smooth online experience with a solid UX design</p>
+              <h2 class="title">Formulaire de paiement</h2>
+              <p class="paragraph">Offrez à votre visiteur une expérience en ligne fluide avec une conception UX solide</p>
             </div>
           </div>
         </div>
         <div class="row wow fadeInRight" data-wow-delay="300ms">
           <div class="col-xl-6 mx-auto">
             <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
-              <div class="mb30">
+              <!-- <div class="mb30">
                 <h4>Let's create your account!</h4>
                 <p class="text mt20">Already have an account? <a href="page-login.html" class="text-thm">Log In!</a></p>
-              </div>
+              </div> -->
               <div class="mb25">
-                <label class="form-label fw500 dark-color">Display Name</label>
+                <label class="form-label fw500 dark-color">Noms</label>
                 <input type="text" class="form-control" placeholder="ali">
               </div>
               <div class="mb25">
-                <label class="form-label fw500 dark-color">Username</label>
-                <input type="text" class="form-control" placeholder="alitf">
+                <label class="form-label fw500 dark-color">Prénoms</label>
+                <input type="text" class="form-control" placeholder="mohammed">
               </div>
               <div class="mb25">
-                <label class="form-label fw500 dark-color">Email</label>
+                <label class="form-label fw500 dark-color">Adresse Email</label>
                 <input type="email" class="form-control" placeholder="alitfn58@gmail.com">
               </div>
-              <div class="mb15">
+              <div class="telephone">
+                <label class="form-label fw500 dark-color">Numéro de téléphone</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="categorie">
+                <label class="form-label fw500 dark-color">Catégories</label>
+                <input type="text" list="civilites3" class="form-control"> 
+                <datalist id="civilites3">
+                    <option value="Entreprise">Entreprise</option>
+                    <option value="Particulier">Particulier</option>
+                    <option value="Utilisateur">Utilisateur</option>
+                  </datalist> 
+            </div>
+
+            <div class="pays_ville">
+                <div class="pays">
+                    <label class="form-label fw500 dark-color">Pays</label>
+                    <input type="text" list="civilites" class="form-control">
+                    <datalist id="civilites">
+                        <option value="Gabon">Gabon</option>
+                        <option value="France">France</option>
+                        <option value="Espagne">Espagne</option>
+                      </datalist>
+                </div>
+
+                <div class="ville">
+                    <label class="form-label fw500 dark-color">Ville</label>
+                    <input type="text" list="civilites2" class="form-control"> 
+                    <datalist id="civilites2">
+                        <option value="Libreville">Libreville</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Madrid">Madrid</option>
+                      </datalist> 
+                </div>
+               
+            </div>
+            <div class="description">
+                <label class="form-label fw500 dark-color">Description</label>
+                <input type="text" class="form-control">
+            </div>
+              <!-- <div class="mb15">
                 <label class="form-label fw500 dark-color">Password</label>
                 <input type="text" class="form-control" placeholder="*******">
+              </div> -->
+              <input type="file" class="televerser">
+              <div class="d-md-flex justify-content-between">
+                <button class="ud-btn btn-fb fz14 fw400 mb-2 mb-md-0" type="button"><img src="images/mastercard.png" alt="" width="60px" height="30px"></button>
+                <button class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button"><img src="images/Airtel money.jpeg" alt="" width="40px" height="30px"></button>
+                <button class="ud-btn btn-apple fz14 fw400" type="button"><img src="images/Mobicash.jpeg" alt="" width="40px" height="30px"></button>
+              
               </div>
               <div class="d-grid mb20">
-                <button class="ud-btn btn-thm default-box-shadow2" type="button">Creat Account <i class="fal fa-arrow-right-long"></i></button>
+                <button class="ud-btn btn-thm default-box-shadow2" type="button">Confirmer <i class="fal fa-arrow-right-long"></i></button>
               </div>
-              <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
-              <div class="d-md-flex justify-content-between">
-                <button class="ud-btn btn-fb fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-facebook-f pr10"></i> Continue Facebook</button>
-                <button class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-google"></i> Continue Google</button>
-                <button class="ud-btn btn-apple fz14 fw400" type="button"><i class="fab fa-apple"></i> Continue Apple</button>
-              </div>
+              <!-- <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div> -->
+              
             </div>
           </div>
         </div>

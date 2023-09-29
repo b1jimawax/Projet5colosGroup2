@@ -489,6 +489,7 @@ h2 {
   box-shadow: none;
   outline: none;
 }
+.ud-btn_btn-thm_default-box-shadow2
 .mailchimp-style2 button {
   height: 50px;
   position: absolute;
@@ -1141,6 +1142,7 @@ h2 {
   height: 100px;
   padding: 20px 30px;
   width: 100%;
+  outline: 0;
 }
 .message_container .message_input button.btn {
   flex: 1;
@@ -1148,6 +1150,17 @@ h2 {
   position: absolute;
   right: 20px;
   top: 20px;
+}
+input:focus{
+  border: 1px solid #00865a;
+}
+.description input{
+	height: 200px;
+}
+
+.televerser{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .inbox_chatting_box {
