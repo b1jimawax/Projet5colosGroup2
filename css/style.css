@@ -87,6 +87,13 @@ body {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+.mb30 h3,p{
+  text-align: center;
+}
+.mb30{
+  background-image: url(images/5colos.png);
+  
+}
 
 a,
 .btn {
@@ -7746,7 +7753,6 @@ li.mm-listitem:focus {
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
 }
-
 .body_content_wrapper:before {
   background: rgba(4, 30, 66, 0.5);
   bottom: 0;
