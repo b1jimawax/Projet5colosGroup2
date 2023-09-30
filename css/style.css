@@ -466,6 +466,17 @@ h2 {
   font-weight: 500;
 }
 
+.pays_ville {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Noms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .mailchimp-style2 {
   position: relative;
 }
@@ -478,7 +489,13 @@ h2 {
   font-weight: 400;
   height: 70px;
   padding-left: 30px;
+  outline: 0;
 }
+.form-control{
+  outline: 0;
+  border: none;
+}
+
 .mailchimp-style2 .form-control:placeholder {
   color: var(--headings-color);
   font-size: 14px;
@@ -489,7 +506,7 @@ h2 {
   box-shadow: none;
   outline: none;
 }
-.ud-btn_btn-thm_default-box-shadow2
+
 .mailchimp-style2 button {
   height: 50px;
   position: absolute;
@@ -9532,6 +9549,7 @@ input:focus-visible {
     bottom: 0;
   }
 }
+ 
 
 .navi_pagi_bottom_left.owl-theme .owl-dots {
   bottom: -18px;
