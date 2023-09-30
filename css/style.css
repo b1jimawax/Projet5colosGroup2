@@ -732,7 +732,7 @@ h2 {
 .user_setting .dropdown-menu .dropdown-item.active span,
 .user_setting .dropdown-menu .dropdown-item:hover,
 .user_setting .dropdown-menu .dropdown-item:hover span {
-  background-color: #222222;
+  background-color: #00865a;
   color: #ffffff;
 }
 
@@ -740,7 +740,7 @@ h2 {
 .dashboard_sidebar_list .sidebar_list_item a:active,
 .dashboard_sidebar_list .sidebar_list_item a:focus,
 .dashboard_sidebar_list .sidebar_list_item a.-is-active {
-  background-color: #222222;
+  background-color: #00865a;
   color: #ffffff;
 }
 
@@ -3422,6 +3422,10 @@ section {
   font-style: normal;
   color: #fff;
 }
+
+/*.dashboard_title_area{
+  text-align: center;
+}*/
 .main-title .paragraph,
 .main-title2 .paragraph {
 <<<<<<< HEAD
