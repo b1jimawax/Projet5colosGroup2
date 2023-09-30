@@ -140,6 +140,9 @@ h6 {
   color: var(--headings-color);
   line-height: 1.3125;
 }
+.our-login{
+  background-color: #00865a ;
+}
 
 .h1,
 h1,
@@ -3391,6 +3394,7 @@ section {
 .main-title2 {
   position: relative;
   margin-bottom: 60px;
+  color: #FFFF;
 }
 @media (max-width: 991.98px) {
   .main-title,
@@ -3400,11 +3404,12 @@ section {
 }
 .main-title .title,
 .main-title2 .title {
+  color: #ffff;
   font-style: normal;
 }
 .main-title .paragraph,
 .main-title2 .paragraph {
-  color: var(--headings-color);
+  color: #ffff;
   font-family: var(--title-font-family);
 }
 
@@ -9696,6 +9701,7 @@ input:focus-visible {
   bottom: 2px;
   left: 50px;
 }
+
 @media (max-width: 991.98px) {
   .home6-listing-single-slider.owl-theme .owl-dots {
     position: absolute;
