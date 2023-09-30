@@ -147,6 +147,9 @@ h6 {
   color: var(--headings-color);
   line-height: 1.3125;
 }
+.our-login{
+  background-color: #00865a ;
+}
 
 .h1,
 h1,
@@ -3401,7 +3404,11 @@ section {
 .main-title2 {
   position: relative;
   margin-bottom: 60px;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #FFFF;
+>>>>>>> a1a54d7b75b0c219e18967138cdde2fd42bf5cd5
 }
 @media (max-width: 991.98px) {
   .main-title,
@@ -3411,12 +3418,17 @@ section {
 }
 .main-title .title,
 .main-title2 .title {
+  color: #ffff;
   font-style: normal;
   color: #fff;
 }
 .main-title .paragraph,
 .main-title2 .paragraph {
+<<<<<<< HEAD
   color:#fff;
+=======
+  color: #ffff;
+>>>>>>> a1a54d7b75b0c219e18967138cdde2fd42bf5cd5
   font-family: var(--title-font-family);
 }
 
@@ -9707,6 +9719,7 @@ input:focus-visible {
   bottom: 2px;
   left: 50px;
 }
+
 @media (max-width: 991.98px) {
   .home6-listing-single-slider.owl-theme .owl-dots {
     position: absolute;
@@ -11379,7 +11392,7 @@ input:focus-visible {
 }
 
 .wa {
-  width: auto !important;
+  width: 5rem !important;
 }
 
 .text-white-light {
